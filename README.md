@@ -16,6 +16,10 @@ Assuming you have a data container called `data` which contains your files that 
       image: meanbee/magedbm
       environment:
         MAGE_ROOT_DIR: /var/www/html
+        AWS_ACCESS_KEY_ID: replaceme
+        AWS_SECRET_ACCESS_KEY: replaceme
+        AWS_REGION: eu-west-1
+        AWS_BUCKET: magedbm
       links:
         - db
       volumes_from:

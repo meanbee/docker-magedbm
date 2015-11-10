@@ -1,6 +1,6 @@
 #Magerun Docker Container
 
-This provides a copy of [magedbm](https://github.com/meanbee/magedbm) to be used in a docker environment.
+This provides a copy of [magedbm](https://github.com/meanbee/magedbm) to be used in a docker environment.  It is based off of our [magento container](https://github.com/meanbee/docker-magento).
 
 #Usage
 
